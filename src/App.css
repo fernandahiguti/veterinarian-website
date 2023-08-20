@@ -36,7 +36,7 @@ nav {
   margin-right: 3rem;
   text-decoration: none;
   color: black;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .primary-button {
@@ -49,6 +49,7 @@ nav {
   cursor: pointer;
   font-weight: 600;
   transition: 0.2s;
+  text-decoration: none;
 }
 .navbar-cart-icon {
   font-size: 1.15rem;
@@ -109,6 +110,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .secondary-button svg {
   margin-left: 0.75rem;
@@ -118,7 +120,7 @@ nav {
   background-color: #F1627B;
 }
 .about-section-container {
-  margin-top: 20rem;
+  margin-top: 10rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -177,64 +179,31 @@ nav {
   flex-direction: column;
   margin: 6rem 0rem;
 }
-.contact-form-container {
-  background-color: white;
-  max-width: 700px;
-  width: 100%;
-  margin-top: 3rem;
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 5rem;
-}
-.contact-form-container input {
-  flex: 1;
-  height: 100%;
-  border: none;
-  outline: none;
-  font-size: 1.3rem;
-  padding: 0.5rem 1rem;
-}
+
 .footer-wrapper {
-  margin: 6rem 0rem;
-  display: flex;
-  margin-top: 10rem;
+  border-top: 1px solid #F1627B;
+  padding-top: 1.5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  text-align: center;
 }
-.footer-logo-container {
-  max-width: 110px;
-}
+
 .footer-icons {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
 }
 .footer-icons svg {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-right: 1.25rem;
-  color: #585858;
+  color: #F1627B;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
-.footer-section-two {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-.footer-section-columns {
-  display: flex;
-  flex-direction: column;
-  min-width: 190px;
-}
-.footer-section-columns span {
-  margin: 0.25rem 0rem;
-  font-weight: 600;
-  color: #4c4c4c;
-  cursor: pointer;
-}
+
 .testimonial-section-bottom {
   margin-top: 2rem;
   background-color: white;
   padding: 1.5rem 2rem;
-  display: flex;
+  display: inline-flex;
+  border: 1px solid #F1627B;  
   align-items: center;
   justify-content: center;
   max-width: 750px;
@@ -244,6 +213,7 @@ nav {
 }
 .testimonial-section-bottom {
   margin: 2rem auto;
+
 }
 .testimonial-section-bottom p {
   font-weight: 700;
@@ -261,7 +231,7 @@ nav {
   margin-top: 1.5rem;
 }
 .work-section-wrapper {
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 .work-section-top p {
   text-align: center;
@@ -307,13 +277,17 @@ nav {
   font-weight: 600;
 }
 
+.contact-button-container {
+  margin-top: 2rem !important;
+}
+
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;
     font-size: 1rem;
   }
   .primary-button {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
   .home-bannerImage-container {
     max-width: 600px;
@@ -407,7 +381,7 @@ nav {
     text-align: center;
   }
   .footer-wrapper {
-    flex-direction: column;
+    text-align: center;
   }
   .footer-section-two {
     flex-direction: column;

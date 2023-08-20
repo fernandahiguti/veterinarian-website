@@ -46,12 +46,12 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">Sobre</a>
-        <a href="">Serviços</a>
-        <a href="">Depoimentos</a>
-        <a href="">Contato</a>
-        <button className="primary-button">Fale comigo</button>
+        <a href="#Home">Home</a>
+        <a href="#About">Sobre</a>
+        <a href="#Services">Serviços</a>
+        <a href="#Testimonials">Depoimentos</a>
+        <a href="#Contact">Contato</a>
+        <a className="primary-button" href="https://api.whatsapp.com/message/IMGBA4ZYP6L5I1?autoload=1&app_absent=0" target="_blank"> Fale comigo</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
