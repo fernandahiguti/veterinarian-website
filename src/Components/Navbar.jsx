@@ -22,22 +22,27 @@ const Navbar = () => {
     {
       text: "Home",
       icon: <HomeIcon />,
+      href:"#Home",
     },
     {
       text: "Sobre",
       icon: <InfoIcon />,
+      href:"#About",
     },
     {
       text: "Serviços",
       icon: <PetsIcon />,
+      href:"#Services",
     },
     {
       text: "Depoimentos",
       icon: <CommentRoundedIcon />,
+      href:"#Testimonials",
     },
     {
       text: "Contato",
       icon: <PhoneRoundedIcon />,
+      href:"#Contact",
     },
   ];
   return (
@@ -51,7 +56,7 @@ const Navbar = () => {
         <a href="#Services">Serviços</a>
         <a href="#Testimonials">Depoimentos</a>
         <a href="#Contact">Contato</a>
-        <a className="primary-button" href="https://api.whatsapp.com/message/IMGBA4ZYP6L5I1?autoload=1&app_absent=0" target="_blank"> Fale comigo</a>
+        <a className="primary-button" href="https://api.whatsapp.com/message/IMGBA4ZYP6L5I1?autoload=1&app_absent=0" target="_blank" rel="noreferrer"> Fale comigo</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -65,10 +70,11 @@ const Navbar = () => {
         >
           <List>
             {menuOptions.map((item) => (
-              <ListItem key={item.text} disablePadding>
-                <ListItemButton>
+                <ListItem key={item.text} disablePadding>
+                <ListItemButton >
                   <ListItemIcon>{item.icon}</ListItemIcon>
-                  <ListItemText primary={item.text} />
+                  <a href={item.href} ><ListItemText primary={item.text} /></a>
+                  
                 </ListItemButton>
               </ListItem>
             ))}

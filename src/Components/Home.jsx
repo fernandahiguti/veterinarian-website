@@ -21,7 +21,7 @@ const Home = () => {
             <br></br>
             Marque já a consulta e proporcione o melhor para o seu companheiro de quatro patas.
           </p>
-          <a className="secondary-button" href="https://api.whatsapp.com/message/IMGBA4ZYP6L5I1?autoload=1&app_absent=0" target="_blank">
+          <a className="secondary-button" href="https://api.whatsapp.com/message/IMGBA4ZYP6L5I1?autoload=1&app_absent=0" target="_blank" rel="noreferrer">
             Agende uma consulta <FiArrowRight />{" "}
           </a>
         </div>

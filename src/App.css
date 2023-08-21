@@ -299,9 +299,16 @@ nav {
   }
   .navbar-links-container {
     display: none;
+    text-decoration: none;
   }
   .navbar-menu-container {
     display: flex;
+    text-decoration: none;
+  }
+
+  a{
+    color: #6a6a6a;
+    text-decoration: none;
   }
   .home-bannerImage-container {
     max-width: 450px;
