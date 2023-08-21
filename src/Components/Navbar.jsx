@@ -56,7 +56,7 @@ const Navbar = () => {
         <a href="#Services">Serviços</a>
         <a href="#Testimonials">Depoimentos</a>
         <a href="#Contact">Contato</a>
-        <a className="primary-button" href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FIMGBA4ZYP6L5I1&e=AT2ZKBEA6PcxrPWVkrC6n-wvPaxDpP1kBanpueBztCNL64_m1BkwPHUz5yT_56icVRNnrklOMrRBV7BHHme78yXYvAw-mQ1RzNbmnHgRWzB0dpbtG6x7oxw" target="_blank" rel="noreferrer"> Fale comigo</a>
+        <a className="primary-button" href="wa.me/message/IMGBA4ZYP6L5I1" target="_blank" rel="noreferrer"> Fale comigo</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
