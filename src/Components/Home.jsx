@@ -21,7 +21,7 @@ const Home = () => {
             <br></br>
             Marque já a consulta e proporcione o melhor para o seu companheiro de quatro patas.
           </p>
-          <a className="secondary-button" href="https://api.whatsapp.com/message/IMGBA4ZYP6L5I1?autoload=1&app_absent=0" target="_blank" rel="noreferrer">
+          <a className="secondary-button" href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FIMGBA4ZYP6L5I1&e=AT2ZKBEA6PcxrPWVkrC6n-wvPaxDpP1kBanpueBztCNL64_m1BkwPHUz5yT_56icVRNnrklOMrRBV7BHHme78yXYvAw-mQ1RzNbmnHgRWzB0dpbtG6x7oxw" target="_blank" rel="noreferrer">
             Agende uma consulta <FiArrowRight />{" "}
           </a>
         </div>
