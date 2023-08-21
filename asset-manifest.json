@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/veterinarian-website/static/css/main.de6c1b60.css",
-    "main.js": "/veterinarian-website/static/js/main.a7bbb6eb.js",
+    "main.css": "/veterinarian-website/static/css/main.aa4f134a.css",
+    "main.js": "/veterinarian-website/static/js/main.0e7ec948.js",
     "static/media/banner-image.png": "/veterinarian-website/static/media/banner-image.818714dd4fdb2bbb3a41.png",
     "static/media/about-image.png": "/veterinarian-website/static/media/about-image.5b43553d1b5b48c4400c.png",
     "static/media/vaccination.png": "/veterinarian-website/static/media/vaccination.5663ce89d193e445c322.png",
@@ -13,11 +13,11 @@
     "static/media/Logo.svg": "/veterinarian-website/static/media/Logo.4f59445df0b4ccc705d9bd5dac4497e0.svg",
     "static/media/banner-background.png": "/veterinarian-website/static/media/banner-background.80ca5d37ffa5d39785e3.png",
     "index.html": "/veterinarian-website/index.html",
-    "main.de6c1b60.css.map": "/veterinarian-website/static/css/main.de6c1b60.css.map",
-    "main.a7bbb6eb.js.map": "/veterinarian-website/static/js/main.a7bbb6eb.js.map"
+    "main.aa4f134a.css.map": "/veterinarian-website/static/css/main.aa4f134a.css.map",
+    "main.0e7ec948.js.map": "/veterinarian-website/static/js/main.0e7ec948.js.map"
   },
   "entrypoints": [
-    "static/css/main.de6c1b60.css",
-    "static/js/main.a7bbb6eb.js"
+    "static/css/main.aa4f134a.css",
+    "static/js/main.0e7ec948.js"
   ]
 }
