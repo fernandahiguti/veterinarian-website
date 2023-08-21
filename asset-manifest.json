@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/veterinarian-website/static/css/main.de6c1b60.css",
+    "main.js": "/veterinarian-website/static/js/main.a7bbb6eb.js",
+    "static/media/banner-image.png": "/veterinarian-website/static/media/banner-image.818714dd4fdb2bbb3a41.png",
+    "static/media/about-image.png": "/veterinarian-website/static/media/about-image.5b43553d1b5b48c4400c.png",
+    "static/media/vaccination.png": "/veterinarian-website/static/media/vaccination.5663ce89d193e445c322.png",
+    "static/media/tests.png": "/veterinarian-website/static/media/tests.2500c190c1f16824f5a8.png",
+    "static/media/microchip.png": "/veterinarian-website/static/media/microchip.5ea040d85ce63ed79648.png",
+    "static/media/appoitments.png": "/veterinarian-website/static/media/appoitments.65acefef5d4c8acbc011.png",
+    "static/media/blood-test.png": "/veterinarian-website/static/media/blood-test.02b51a5e231038b985e8.png",
+    "static/media/travel.png": "/veterinarian-website/static/media/travel.296668c03c8d444d119c.png",
+    "static/media/Logo.svg": "/veterinarian-website/static/media/Logo.4f59445df0b4ccc705d9bd5dac4497e0.svg",
+    "static/media/banner-background.png": "/veterinarian-website/static/media/banner-background.80ca5d37ffa5d39785e3.png",
+    "index.html": "/veterinarian-website/index.html",
+    "main.de6c1b60.css.map": "/veterinarian-website/static/css/main.de6c1b60.css.map",
+    "main.a7bbb6eb.js.map": "/veterinarian-website/static/js/main.a7bbb6eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de6c1b60.css",
+    "static/js/main.a7bbb6eb.js"
+  ]
+}
