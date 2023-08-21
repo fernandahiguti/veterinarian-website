@@ -56,7 +56,7 @@ const Navbar = () => {
         <a href="#Services">Serviços</a>
         <a href="#Testimonials">Depoimentos</a>
         <a href="#Contact">Contato</a>
-        <a className="primary-button" href="wa.me/message/IMGBA4ZYP6L5I1" target="_blank" rel="noreferrer"> Fale comigo</a>
+        <a className="primary-button" href="https://wa.me/5511960715867" target="_blank" rel="noreferrer"> Fale comigo</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

@@ -21,7 +21,7 @@ const Home = () => {
             <br></br>
             Marque já a consulta e proporcione o melhor para o seu companheiro de quatro patas.
           </p>
-          <a className="secondary-button" href="wa.me/message/IMGBA4ZYP6L5I1" target="_blank" rel="noreferrer">
+          <a className="secondary-button" href="https://wa.me/5511960715867" target="_blank" rel="noreferrer">
             Agende uma consulta <FiArrowRight />{" "}
           </a>
         </div>
